@@ -1,7 +1,6 @@
-export function App() {
+import './styles/global.scss';
 
-    throw new Error('Erro Teste');
-    
-    return <h1>Hello World Diogenes!</h1>
+export function App() {
+    return <h1>Hello World</h1>
 }
 
